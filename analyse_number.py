@@ -15,3 +15,4 @@ def is_even_number(number):
 my_number = -5
 print(is_whole_number(my_number))
 print(is_even_number(my_number))
+#
