@@ -6,7 +6,8 @@ def is_even_number(number):
         return False
 
 
-my_numbers = [-5, 4.5, 2, 3, 4]
+
+my_numbers = [-5, 5, 1.2, 5]
 for my_number in my_numbers:
     print(is_even_number(my_number))
 ##
