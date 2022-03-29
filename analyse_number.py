@@ -1,9 +1,3 @@
-def is_whole_number(number):
-    if number % 1 == 0 and number > 0:
-        return True
-    else:
-        return False
-
 
 def is_even_number(number):
     if number % 2 == 0:
@@ -12,7 +6,7 @@ def is_even_number(number):
         return False
 
 
-my_number = -5
-print(is_whole_number(my_number))
-print(is_even_number(my_number))
+my_numbers = [-5, 4.5, 2, 3, 4]
+for my_number in my_numbers:
+    print(is_even_number(my_number))
 ##
